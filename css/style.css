@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+h3{
+    font-size: 50px;
+    color: white;
+    height: 5rem;
+    background-color: black;
+    text-align: center;
+    line-height: 5rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    background-color: black;
+    cursor: pointer;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 50px;
+}
+.score{
+    font-size: 40px;
+    text-align: center;
+}
+#totalMatch{
+    font-size: 50px;
+}
+#userScore{
+    font-size: 50px;
+}
+#compScore{
+    font-size: 50px;
+}
+#draw{
+    font-size: 50px;
+}
+
+.msg-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+
+#resetButton{
+    height: 50px;
+    width: 150px;
+    font-size:23px;
+    background-color: rgb(138, 138, 178);
+    color: white;
+    border-radius: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
